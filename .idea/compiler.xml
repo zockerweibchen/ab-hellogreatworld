@@ -9,8 +9,10 @@
         <module name="ab-hellogreatworld" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ab-hellogreatworld" target="11" />
-    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ab-hellogreatworld" options="-parameters" />
+    </option>
   </component>
 </project>
